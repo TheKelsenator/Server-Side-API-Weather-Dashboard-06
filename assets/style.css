@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  color: rgb(236, 236, 211);
+  background-color: rgba(76, 47, 104, 0.5);
+  border-bottom: 3px solid ;
+}
+
+.search-container {
+  display: table;
+  max-width: 25%;
+  float: left;
+  color: rgb(78, 78, 65);
+  background-color: antiquewhite;
+}
+
+#history {
+  display: table;
+  float: left;
+  color: rgb(78, 78, 65);
+  background-color: antiquewhite;
+  padding: 15px;
+  padding-left: 38px;
+  padding-right: 37px;
+}
+
+.navbar {
+  color: rgb(78, 78, 65);
+  margin-bottom: 10px;
+  
+}
+
+h4 {
+  padding: 15px;
+  padding-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  border: 2px solid rgb(19, 46, 19);
+}
+
+
