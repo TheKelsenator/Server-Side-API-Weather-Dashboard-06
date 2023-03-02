@@ -5,7 +5,7 @@ let getWeatherData = () => {
   let apiURL = "api.openweathermap.org"; // Main Weather API URL
   let userSearch = citySearch; 
   let APIKey = "107d1fdb9fa2b933ecc98f2db7577eeb";
-  let weatherApiInformation = "http://api.openweathermap.org/data/2.5/weather?q=" + userSearch + "&appid=" + APIKey + '&units=imperial'; // API parameters that allows user to receive weather info
+  let weatherApiInformation = "https://api.openweathermap.org/data/2.5/weather?q=" + userSearch + "&appid=" + APIKey + '&units=imperial'; // API parameters that allows user to receive weather info
   let date = dayjs().format('dddd MMMM D, YYYY');
 
   let li = document.createElement('li');
@@ -25,21 +25,21 @@ let getWeatherData = () => {
       console.log(data);
       $('.cityName').text(data.name);
       $('.date').text(date);
-      $('.icon').attr('src', 'http://openweathermap.org/img/wn/' + data.weather[0].icon + '@2x.png'); 
+      $('.icon').attr('src', 'https://openweathermap.org/img/wn/' + data.weather[0].icon + '@2x.png'); 
       $('.description').text(data.weather[0].description);
       $('.temp').text(data.main.temp);
       $('.feels-like').text(data.main.feels_like);
       $('.humidity').text(data.main.humidity);
       $('.wind').text(data.wind.speed);
 
-  fetch('http://api.openweathermap.org/data/2.5/forecast?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&appid=' + APIKey + '&units=imperial')
+  fetch('https://api.openweathermap.org/data/2.5/forecast?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&appid=' + APIKey + '&units=imperial')
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
       console.log(data);
       $('.date-1').text(dayjs(data.list[4].dt_txt).format('MM/DD'));
-      $('.icon-1').attr('src', 'http://openweathermap.org/img/wn/' + data.list[0].weather[0].icon + '@2x.png');
+      $('.icon-1').attr('src', 'https://openweathermap.org/img/wn/' + data.list[0].weather[0].icon + '@2x.png');
       $('.description-1').text(data.list[0].weather[0].description);
       $('.temp-1').text(data.list[0].main.temp);
       $('.feels-like-1').text(data.list[0].main.feels_like);
@@ -47,7 +47,7 @@ let getWeatherData = () => {
       $('.wind-1').text(data.list[0].wind.speed);
 
       $('.date-2').text(dayjs(data.list[12].dt_txt).format('MM/DD'));
-      $('.icon-2').attr('src', 'http://openweathermap.org/img/wn/' + data.list[1].weather[0].icon + '@2x.png');
+      $('.icon-2').attr('src', 'https://openweathermap.org/img/wn/' + data.list[1].weather[0].icon + '@2x.png');
       $('.description-2').text(data.list[1].weather[0].description);
       $('.temp-2').text(data.list[1].main.temp);
       $('.feels-like-2').text(data.list[1].main.feels_like);
@@ -55,7 +55,7 @@ let getWeatherData = () => {
       $('.wind-2').text(data.list[1].wind.speed);
 
       $('.date-3').text(dayjs(data.list[20].dt_txt).format('MM/DD'));
-      $('.icon-3').attr('src', 'http://openweathermap.org/img/wn/' + data.list[2].weather[0].icon + '@2x.png');
+      $('.icon-3').attr('src', 'https://openweathermap.org/img/wn/' + data.list[2].weather[0].icon + '@2x.png');
       $('.description-3').text(data.list[2].weather[0].description);
       $('.temp-3').text(data.list[2].main.temp);
       $('.feels-like-3').text(data.list[2].main.feels_like);
@@ -63,7 +63,7 @@ let getWeatherData = () => {
       $('.wind-3').text(data.list[2].wind.speed);
 
       $('.date-4').text(dayjs(data.list[28].dt_txt).format('MM/DD'));
-      $('.icon-4').attr('src', 'http://openweathermap.org/img/wn/' + data.list[3].weather[0].icon + '@2x.png');
+      $('.icon-4').attr('src', 'https://openweathermap.org/img/wn/' + data.list[3].weather[0].icon + '@2x.png');
       $('.description-4').text(data.list[3].weather[0].description);
       $('.temp-4').text(data.list[3].main.temp);
       $('.feels-like-4').text(data.list[3].main.feels_like);
@@ -71,7 +71,7 @@ let getWeatherData = () => {
       $('.wind-4').text(data.list[3].wind.speed);
 
       $('.date-5').text(dayjs(data.list[36].dt_txt).format('MM/DD'));
-      $('.icon-5').attr('src', 'http://openweathermap.org/img/wn/' + data.list[4].weather[0].icon + '@2x.png');
+      $('.icon-5').attr('src', 'https://openweathermap.org/img/wn/' + data.list[4].weather[0].icon + '@2x.png');
       $('.description-5').text(data.list[4].weather[0].description);
       $('.temp-5').text(data.list[4].main.temp);
       $('.feels-like-5').text(data.list[4].main.feels_like);
