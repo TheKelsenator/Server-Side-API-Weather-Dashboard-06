@@ -31,6 +31,8 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Screen Shot
 
-![alt_text](./)
+![alt_text](./images/Screenshot%20(28).png)
 
 ## Application Link
+
+https://thekelsenator.github.io/lardos-bar-06/
