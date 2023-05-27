@@ -35,4 +35,4 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Application Link
 
-https://thekelsenator.github.io/lardos-bar-06/
+https://thekelsenator.github.io/Server-Side-API-Weather-Dashboard-06/
