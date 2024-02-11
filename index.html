@@ -11,7 +11,7 @@
 
   <body>
     <header>
-      <h1>Weather Dashboard</h1>
+      <h1 class="weather">Weather&nbsp;</h1> <h1 class="dashboard">Dashboard</h1>
       <br>
     </header>
 
@@ -26,26 +26,26 @@
           <ul id="history"></ul>
         </div>
       </div>
-        
+
       <div class="weather-container text-center">
         <div class="current-info">
           <div class="current-info-left">
             <div>
               <h4><p class="date"></p></h4>
             </div>
-            <h3 class="cityName"></h3>
+            <h4>Temp:<p class="temp"></p>&deg;F</h4>
             <img class="icon">
             <h6><p class="description"></p></h6>
           </div>
           <div class="current-info-right">
-            <h4>Temp: <p class="temp"></p></h4>
+            <h3 class="cityName"></h3>
             <h6>Feels Like: <p class="feels-like"></p></h6>
             <h6>Humidity: <p class="humidity"></p></h6>
             <h6>Wind (mph): <p class="wind"></p></h6>
           </div>
         </div>
       </div>
-
+      
       <div class="forcast-container">
         <div class="card-1">
           <h4><p class="date-1"></p></h4>
@@ -93,15 +93,17 @@
           <h6>Wind (mph): <p class="wind-5"></p></h6>
         </div>
       </div>
+
+     
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="text-center">
         <p>
           <h5>Made with 💛 by <a href="https://github.com/TheKelsenator">The Kelsenator</a></h5>
         </p>
       </div>
-    </footer>
+    </footer> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
@@ -112,6 +114,7 @@
     <script src="./assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/us-state-codes/dist/index.umd.js"></script>
 
   </body>
 </html>
