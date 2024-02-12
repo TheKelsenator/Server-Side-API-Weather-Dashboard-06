@@ -9,7 +9,7 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Description
 
- This week’s challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+  Welcome to the Weather Dashboard project! This week's challenge tasks you with building a dynamic weather dashboard that operates right in your browser. Utilizing Server-Side APIs, your dashboard will offer real-time updates and visually engaging displays of weather data through HTML and CSS.
 
 ## User Story
 
@@ -31,7 +31,8 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Screen Shot
 
-![alt_text](./images/Screenshot%20(06).png)
+![alt_text](./images/Screenshot (108).png)
+![alt_text](./images/Screenshot (109).png)
 
 ## Application Link
 
