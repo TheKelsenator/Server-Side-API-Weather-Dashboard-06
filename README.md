@@ -11,6 +11,15 @@ Full-Stack Web Development Coding Bootcamp
 
   Welcome to the Weather Dashboard project! This week's challenge tasks you with building a dynamic weather dashboard that operates right in your browser. Utilizing Server-Side APIs, your dashboard will offer real-time updates and visually engaging displays of weather data through HTML and CSS.
 
+  ## Table of Contents 
+
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [License](#license)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+  - [Contact Me](#contact-me)
+
 ## User Story
 
   * AS A traveler
@@ -29,11 +38,26 @@ Full-Stack Web Development Coding Bootcamp
   * WHEN I click on a city in the search history
   * THEN I am again presented with current and future conditions for that city
 
-## Screen Shot
+## License
+
+  This project is licensed under the terms of the MIT license.
+  [License Information](https://choosealicense.com/licenses/mit)
+  <br/>
+  <br/>
+  <a href="https://choosealicense.com/licenses/mit">
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+  </a>
+
+## Screenshots
 
 ![alt_text](./images/Screenshot(108).png)
 ![alt_text](./images/Screenshot(109).png)
 
-## Application Link
+## Links
 
-https://thekelsenator.github.io/Server-Side-API-Weather-Dashboard-06/
+  * Application Link: https://thekelsenator.github.io/Server-Side-API-Weather-Dashboard-06/
+  * LinkedIn Profile: https://www.linkedin.com/in/kelsey-o-kelley-23057a20b/
+
+## Contact Me
+
+Feel free to reach out to me via email at km.okelley89@gmail.com or through my LinkedIn.
